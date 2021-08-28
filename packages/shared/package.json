@@ -1,0 +1,12 @@
+{
+  "name": "@collaborative-whiteboard/shared",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Hidemi Yukita <otofu.square@gmail.com>",
+  "homepage": "https://github.com/otofu-square/collaborative-whiteboard#readme",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "typescript": "4.4.2"
+  }
+}
