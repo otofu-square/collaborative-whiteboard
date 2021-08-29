@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "./tsconfig.extend.json",
   "compilerOptions": {
     "rootDir": ".",
     "baseUrl": ".",
@@ -7,9 +7,13 @@
     "jsx": "react-jsx",
     "noEmit": true,
     "types": ["react/next", "react-dom/next"],
-    "paths": {
-      "~/src/*": ["./src/*"]
-    }
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "isolatedModules": true
   },
   "include": ["src", "typings", ".storybook"]
 }

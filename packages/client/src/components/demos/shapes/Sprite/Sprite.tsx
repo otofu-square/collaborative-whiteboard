@@ -2,7 +2,7 @@ import Konva from "konva";
 import { FC, useCallback, useEffect, useState } from "react";
 import { Sprite as KonvaSprite, Text as KonvaText } from "react-konva";
 
-import { useImageElement } from "~/src/lib/hooks";
+import { useImageElement } from "~/lib/hooks";
 
 import spriteImage from "./sprite.png";
 

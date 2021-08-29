@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Ellipse as KonvaEllipse } from "react-konva";
 
-import { useStage } from "~/src/components/utils/StageContext";
+import { useStage } from "~/components/utils/StageContext";
 
 export const Ellipse: FC = () => {
   const { stage } = useStage();

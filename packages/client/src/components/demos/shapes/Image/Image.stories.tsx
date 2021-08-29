@@ -1,7 +1,7 @@
 import { Meta, Story } from "@storybook/react";
 import { Layer } from "react-konva";
 
-import { StageProvider } from "~/src/components/utils/StageContext";
+import { StageProvider } from "~/components/utils/StageContext";
 
 import { Image } from "./Image";
 

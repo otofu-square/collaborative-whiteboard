@@ -4,9 +4,6 @@
   "workspaces": {
     "packages": [
       "packages/*"
-    ],
-    "nohoist": [
-      "**"
     ]
   },
   "lint-staged": {
@@ -20,7 +17,6 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "start": "parcel serve ./packages/client/public/index.html --open",
     "eslint": "eslint --cache './**/*.{ts,tsx}'",
     "prettier": "prettier './**/*.{md,js,ts,tsx,json}'",
     "lint": "run-p -l -c --aggregate-output lint:*",

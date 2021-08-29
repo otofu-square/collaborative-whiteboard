@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Image as KonvaImage } from "react-konva";
 
-import { useImageElement } from "~/src/lib/hooks";
+import { useImageElement } from "~/lib/hooks";
 
 import darthVaderImage from "./darth-vader.jpeg";
 import yodaImage from "./yoda.jpeg";
