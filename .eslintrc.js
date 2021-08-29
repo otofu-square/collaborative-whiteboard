@@ -8,8 +8,11 @@ module.exports = {
     "prettier",
   ],
   rules: {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "no-duplicate-imports": "error",
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
+    "import/named": "off",
+    "import/no-unresolved": "off",
     "import/first": "off",
     "import/order": [
       "error",

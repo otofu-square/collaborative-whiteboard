@@ -17,6 +17,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "start": "lerna run start --stream",
     "eslint": "eslint --cache './**/*.{ts,tsx}'",
     "prettier": "prettier './**/*.{md,js,ts,tsx,json}'",
     "lint": "run-p -l -c --aggregate-output lint:*",
@@ -37,7 +38,7 @@
     "eslint-plugin-flowtype": "5.9.1",
     "eslint-plugin-import": "2.24.2",
     "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react": "7.25.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "husky": "7.0.2",
     "lerna": "4.0.0",

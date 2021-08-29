@@ -3,9 +3,16 @@
   "version": "0.0.0",
   "license": "MIT",
   "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --clear --deps --debug src/index.ts"
+  },
   "devDependencies": {
     "@types/node": "16.7.4",
     "ts-node-dev": "1.1.8",
     "typescript": "4.4.2"
+  },
+  "dependencies": {
+    "@hocuspocus/server": "1.0.0-alpha.65",
+    "yjs": "13.5.12"
   }
 }

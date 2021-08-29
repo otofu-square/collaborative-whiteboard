@@ -6,6 +6,7 @@
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "jsx": "react-jsx",
     "noEmit": true,
+    "incremental": true,
     "types": ["react/next", "react-dom/next"],
     "paths": {
       "~/*": ["./src/*"]
