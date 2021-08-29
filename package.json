@@ -1,9 +1,14 @@
 {
   "name": "collaborative-whiteboard",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  },
   "lint-staged": {
     "*.{js,json,html,md}": [
       "prettier --write"
@@ -15,6 +20,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "start": "parcel serve ./packages/client/public/index.html --open",
     "eslint": "eslint --cache './**/*.{ts,tsx}'",
     "prettier": "prettier './**/*.{md,js,ts,tsx,json}'",
     "lint": "run-p -l -c --aggregate-output lint:*",
@@ -26,7 +32,6 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@types/node": "16.7.4",
     "@typescript-eslint/eslint-plugin": "4.29.3",
     "@typescript-eslint/parser": "4.29.3",
     "babel-eslint": "10.1.0",

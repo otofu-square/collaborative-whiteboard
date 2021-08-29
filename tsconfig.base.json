@@ -8,6 +8,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "jsx": "react-jsx",
     "lib": ["ESNext"]
   }
 }

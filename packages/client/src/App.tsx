@@ -1,9 +1,9 @@
 import { Box, chakra } from "@chakra-ui/react";
-import { FC } from "react";
+import React, { FC } from "react";
 import { Layer, Text } from "react-konva";
 
-import { ColorRect } from "./ColorRect";
-import { StageProvider } from "./components/utils/StageContext";
+import { ColorRect } from "~/src/ColorRect";
+import { StageProvider } from "~/src/components/utils/StageContext";
 
 export const ChakraRootWWrapperBox = chakra(Box, {
   baseStyle: {
