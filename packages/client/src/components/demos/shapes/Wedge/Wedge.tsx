@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Wedge as KonvaWedge } from "react-konva";
 
-import { useStage } from "~/components/utils/StageContext";
+import { useStage } from "~/features/Canvas/StageContext";
 
 export const Wedge: FC = () => {
   const { stage } = useStage();

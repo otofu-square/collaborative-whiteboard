@@ -2,7 +2,7 @@ import Konva from "konva";
 import { FC, useMemo, useState } from "react";
 import { Rect as KonvaRect, Text as KonvaText } from "react-konva";
 
-import { useStage } from "~/components/utils/StageContext";
+import { useStage } from "~/features/Canvas/StageContext";
 
 const text = `COMPLEX TEXT
 

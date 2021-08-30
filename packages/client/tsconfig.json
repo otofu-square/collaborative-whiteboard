@@ -3,10 +3,17 @@
   "compilerOptions": {
     "rootDir": ".",
     "baseUrl": ".",
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "jsx": "react-jsx",
     "noEmit": true,
-    "types": ["react/next", "react-dom/next"],
+    "types": [
+      "react/next",
+      "react-dom/next"
+    ],
     "target": "es5",
     "allowJs": true,
     "skipLibCheck": true,
@@ -15,5 +22,9 @@
     "module": "esnext",
     "isolatedModules": true
   },
-  "include": ["src", "typings", ".storybook"]
+  "include": [
+    "src",
+    "typings",
+    ".storybook"
+  ]
 }

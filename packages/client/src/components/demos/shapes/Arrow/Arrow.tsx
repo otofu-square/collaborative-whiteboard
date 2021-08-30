@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Arrow as KonvaArrow } from "react-konva";
 
-import { useStage } from "~/components/utils/StageContext";
+import { useStage } from "~/features/Canvas/StageContext";
 
 export const Arrow: FC = () => {
   const { stage } = useStage();

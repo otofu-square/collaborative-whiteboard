@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Arc as KonvaArc } from "react-konva";
 
-import { useStage } from "~/components//utils/StageContext";
+import { useStage } from "~/features/Canvas/StageContext";
 
 export const Arc: FC = () => {
   const { stage } = useStage();

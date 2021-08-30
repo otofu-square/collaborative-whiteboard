@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Circle as KonvaCircle } from "react-konva";
 
-import { useStage } from "~/components/utils/StageContext";
+import { useStage } from "~/features/Canvas/StageContext";
 
 export const Circle: FC = () => {
   const { stage } = useStage();

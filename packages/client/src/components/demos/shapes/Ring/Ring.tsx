@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Ring as KonvaRing } from "react-konva";
 
-import { useStage } from "~/components//utils/StageContext";
+import { useStage } from "~/features/Canvas/StageContext";
 
 export const Ring: FC = () => {
   const { stage } = useStage();

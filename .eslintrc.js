@@ -8,6 +8,7 @@ module.exports = {
     "prettier",
   ],
   rules: {
+    "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "no-duplicate-imports": "error",
     "sort-imports": ["error", { ignoreDeclarationSort: true }],

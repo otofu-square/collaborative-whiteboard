@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Star as KonvaStar } from "react-konva";
 
-import { useStage } from "~/components//utils/StageContext";
+import { useStage } from "~/features/Canvas/StageContext";
 
 export const Star: FC = () => {
   const { stage } = useStage();

@@ -1,24 +1,22 @@
 import { Box, chakra } from "@chakra-ui/react";
-import React, { FC } from "react";
-import { Layer, Text } from "react-konva";
+import { FC } from "react";
 
-import { ColorRect } from "~/ColorRect";
-import { StageProvider } from "~/components/utils/StageContext";
+import { CanvasContainer } from "~/features/Canvas";
+import { LeftControlPanelContainer } from "~/features/LeftControlPanel";
+import { Hocuspocus } from "~/Hocuspocus";
 
-export const ChakraRootWWrapperBox = chakra(Box, {
+export const StyledWrapperBox = chakra(Box, {
   baseStyle: {
+    position: "relative",
     w: "100%",
     h: "100%",
   },
 });
 
-console.log("hoge");
-
 export const App: FC = () => (
-  <StageProvider>
-    <Layer>
-      <Text draggable text="hello world" />
-      <ColorRect />
-    </Layer>
-  </StageProvider>
+  <StyledWrapperBox>
+    <LeftControlPanelContainer />
+    <CanvasContainer />
+    <Hocuspocus />
+  </StyledWrapperBox>
 );
