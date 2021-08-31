@@ -3,7 +3,6 @@ import { FC } from "react";
 
 import { CanvasContainer } from "~/features/Canvas";
 import { LeftControlPanelContainer } from "~/features/LeftControlPanel";
-import { Hocuspocus } from "~/Hocuspocus";
 
 export const StyledWrapperBox = chakra(Box, {
   baseStyle: {
@@ -17,6 +16,5 @@ export const App: FC = () => (
   <StyledWrapperBox>
     <LeftControlPanelContainer />
     <CanvasContainer />
-    <Hocuspocus />
   </StyledWrapperBox>
 );

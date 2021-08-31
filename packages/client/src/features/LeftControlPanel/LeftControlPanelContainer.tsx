@@ -1,6 +1,6 @@
 import { FC, useCallback } from "react";
 
-import { useShapesOperations } from "~/store/states/canvas";
+import { useShapesOperations } from "~/features/HocusPocus";
 
 import { LeftControlPanel } from "./presentations";
 
