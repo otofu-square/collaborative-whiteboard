@@ -21,16 +21,16 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@chakra-ui/react": "1.6.6",
+    "@chakra-ui/react": "1.6.7",
     "@emotion/react": "11.4.1",
     "@emotion/styled": "11.3.0",
-    "@hocuspocus/provider": "1.0.0-alpha.11",
+    "@hocuspocus/provider": "1.0.0-alpha.13",
     "framer-motion": "4.1.17",
     "konva": "8.1.3",
-    "react": "18.0.0-alpha-8723e772b-20210826",
-    "react-dom": "18.0.0-alpha-8723e772b-20210826",
+    "react": "18.0.0-alpha-67f38366a-20210830",
+    "react-dom": "18.0.0-alpha-67f38366a-20210830",
     "react-konva": "17.0.2-5",
-    "react-use": "17.2.4",
+    "react-use": "17.3.1",
     "recoil": "0.4.1",
     "throttle-debounce": "3.0.1",
     "uuid": "8.3.2"
@@ -41,14 +41,14 @@
     "@storybook/addon-essentials": "6.3.7",
     "@storybook/addon-links": "6.3.7",
     "@storybook/react": "6.3.7",
-    "@types/node": "16.7.4",
-    "@types/react": "17.0.18",
+    "@types/node": "16.7.10",
+    "@types/react": "17.0.19",
     "@types/react-dom": "17.0.9",
     "@types/throttle-debounce": "2.1.0",
     "craco-alias": "3.0.1",
     "react-scripts": "4.0.3",
-    "storybook-preset-craco": "0.0.4",
-    "ts-node": "10.2.0",
+    "storybook-preset-craco": "0.0.6",
+    "ts-node": "10.2.1",
     "typescript": "4.4.2"
   }
 }
